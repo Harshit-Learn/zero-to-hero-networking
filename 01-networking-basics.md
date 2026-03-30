@@ -233,19 +233,14 @@ The time taken for data to travel from one point to another
 
 ## ✅ Key Takeaways
 
-✔ Networking = connection of devices
-✔ Internet = network of networks
-✔ Client–Server = communication model
-✔ Router = decides path
-✔ Switch = sends data within LAN
-✔ MAC Address = unique device ID
-✔ Packet = unit of data
+* Networking = connection of devices
+* Internet = network of networks
+* Client–Server = communication model
+* Router = decides path
+* Switch = sends data within LAN
+* MAC Address = unique device ID
+* Packet = unit of data
 ✔ Protocol = communication rules
 
 ---
 
-
-
-
-👉 **Day-2 (IP + Ports + CIDR)**
-👉 ya **OSI Model (killer explanation)** 🚀
