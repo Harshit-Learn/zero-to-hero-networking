@@ -3,7 +3,7 @@
 
 # 📘 Networking Basics (Beginner to Foundation)
 
-*(GitHub ke liye ready content)*
+
 
 ---
 
