@@ -593,14 +593,14 @@ aws ec2 authorize-security-group-ingress \
 
 # Key Takeaways
 
-✅ Firewalls control inbound and outbound traffic
-✅ Default deny, explicitly allow what's needed
-✅ Use security groups to reference other groups (cloud)
-✅ Separate security groups by role/tier
-✅ Always allow SSH before enabling firewall (to avoid lockout)
-✅ Regular audits to remove unnecessary rules
-✅ Test connectivity after making changes
-✅ Document why each rule exists
+* Firewalls control inbound and outbound traffic
+* Default deny, explicitly allow what's needed
+* Use security groups to reference other groups (cloud)
+* Separate security groups by role/tier
+* Always allow SSH before enabling firewall (to avoid lockout)
+* Regular audits to remove unnecessary rules
+* Test connectivity after making changes
+* Document why each rule exists
 
 ---
 
