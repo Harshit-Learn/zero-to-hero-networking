@@ -198,28 +198,181 @@ Packets travel independently and are reassembled at the destination.
 
 ## ⚡ Important Concepts
 
-### 🔹 What is a Protocol?
 
-Rules that define how data is sent and received
-
-👉 Example:
-
-* HTTP
-* HTTPS
+# 📘 Networking & System Design Basics (DevOps)
 
 ---
 
-### 🔹 What is Bandwidth?
+## 🔹 1. Latency (Most Important)
 
-The speed of data transfer
+👉 **Meaning:** Time taken for data to travel from one point to another
+
+📌 **Example:**
+Delhi → Mumbai server request
+If it takes **50 ms → Latency = 50ms**
+
+👉 **Simple Understanding:**
+Like delay in a phone call 📞
+
+✅ **Low latency = Fast system**
 
 ---
 
-### 🔹 What is Latency?
+## 🔹 2. Bandwidth
 
-The time taken for data to travel from one point to another
+👉 **Meaning:** Amount of data that can be transferred at a time
+
+📌 **Example:**
+100 Mbps vs 10 Mbps internet
+
+👉 **Simple Understanding:**
+Pipe jitna mota → utna zyada pani (data)
+
+✅ **Higher bandwidth = More data transfer**
 
 ---
+
+## 🔹 3. Throughput
+
+👉 **Meaning:** Actual data successfully transferred
+
+📌 **Key Point:**
+
+* Bandwidth = Theoretical
+* Throughput = Real performance
+
+👉 **Simple Understanding:**
+6-lane road (bandwidth)
+Traffic ki wajah se sirf 3 lane chal rahi (throughput)
+
+---
+
+## 🔹 4. Availability
+
+👉 **Meaning:** System kitna time available hai (uptime)
+
+📌 **Example:**
+99.9% uptime
+
+👉 **Simple:**
+Server hamesha accessible hona chahiye
+
+---
+
+## 🔹 5. Scalability
+
+👉 **Meaning:** Load badhne par system expand ho sakta hai
+
+📌 **Example:**
+Website traffic badhne par auto scaling
+
+### 🔸 Types:
+
+* **Vertical Scaling:** Machine powerful banana
+* **Horizontal Scaling:** Machines increase karna
+
+---
+
+## 🔹 6. Elasticity
+
+👉 **Meaning:** Demand ke hisaab se resources auto increase/decrease
+
+👉 **Simple:**
+
+* Load zyada → resources add
+* Load kam → resources remove
+
+---
+
+## 🔹 7. Fault Tolerance
+
+👉 **Meaning:** Failure ke baad bhi system chalta rahe
+
+📌 **Example:**
+1 server down → dusra automatically handle kare
+
+---
+
+## 🔹 8. High Availability (HA)
+
+👉 **Meaning:** System always accessible rahe, downtime minimum ho
+
+📌 **Achieved By:**
+
+* Multiple servers
+* Load balancing
+
+---
+
+## 🔹 9. Load Balancing
+
+👉 **Meaning:** Traffic ko multiple servers me distribute karna
+
+👉 **Simple:**
+1 counter ki bheed → 5 counters me divide
+
+---
+
+## 🔹 10. CDN (Content Delivery Network)
+
+👉 **Meaning:** Data nearest server se serve hota hai
+
+📌 **Example:**
+
+* Delhi user → Delhi server
+* USA user → USA server
+
+✅ **Benefit:** Lower latency
+
+---
+
+## 🔹 11. Region & Availability Zone (AWS Concept)
+
+👉 From [Amazon Web Services (AWS)](https://aws.amazon.com?utm_source=chatgpt.com)
+
+* **Region:** Geographic area (e.g., Mumbai)
+* **Availability Zone (AZ):** Multiple data centers within a region
+
+✅ **Use:**
+
+* High availability
+* Fault tolerance
+
+---
+
+## 🔹 12. IOPS (Input/Output Operations Per Second)
+
+👉 **Meaning:** Disk read/write speed
+
+✅ **High IOPS = Faster database performance**
+
+---
+
+## 🔹 13. Auto Scaling
+
+👉 **Meaning:** Automatically servers add/remove based on traffic
+
+---
+
+## 🔹 14. Virtualization
+
+👉 **Meaning:** One physical machine → multiple virtual machines
+
+✅ **Base of cloud computing**
+
+---
+
+
+👉 **Question:** Difference between Latency & Bandwidth
+
+✅ **Answer:**
+
+* **Latency = Delay (Time)**
+* **Bandwidth = Capacity (Data size)**
+
+---
+
+
 
 ## 🛠️ Real Life Example
 
